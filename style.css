@@ -11,16 +11,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-}
-
-body,
-html {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-* {
     box-sizing: border-box;
 }
 
@@ -32,6 +22,8 @@ body {
     border: 0;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     justify-content: stretch;
+    align-items: center;
+    overflow: hidden;
 }
 
 img {
