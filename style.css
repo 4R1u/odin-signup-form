@@ -66,3 +66,10 @@ img {
 .login-sidebar>p>a:link {
     color: #ffffff;
 }
+
+.inspo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 2.5vw;
+    width: 50vw;
+}
