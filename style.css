@@ -149,3 +149,13 @@ button {
     height: 40px;
     width: 165px;
 }
+
+.main-form-body > p {
+    margin: 2vw;
+}
+
+.main-form-body a {
+    color: #596d48;
+    font-weight: bold;
+    text-decoration: none;
+}
