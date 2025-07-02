@@ -24,20 +24,36 @@
         </div>
 
         <form action="./index.html" method="post">
-            <div class="form-body">
-                <legend>Let's do this!</legend>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name">
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name">
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" name="phone" id="phone">
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
-                <label for="password-dup">CONFIRM PASSWORD</label>
-                <input type="password" name="password-dup" id="password-dup">
+            <div class="form-parent">
+                <div class="form-body">
+                    <legend>Let's do this!</legend>
+                    <div class="fields">
+                        <div class="label-and-input">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        <div class="label-and-input">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                        <div class="label-and-input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="label-and-input">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                        <div class="label-and-input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="label-and-input">
+                            <label for="password-dup">CONFIRM PASSWORD</label>
+                            <input type="password" name="password-dup" id="password-dup">
+                        </div>
+                    </div>
+                </div>
             </div>
             <button type="submit">Create Account</button>
         </form>
